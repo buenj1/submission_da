@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.7  C:\Users\John Patrick\Documents\Atmel Studio\7.0\da1a\da1a\main.asm Sun Feb 10 16:07:49 2019
+AVRASM ver. 2.2.7  C:\Users\John Patrick\Documents\Atmel Studio\7.0\da1a\da1a\main.asm Sat Feb 16 16:49:00 2019
 
 
 EQU  SIGNATURE_000 0000001e
@@ -695,12 +695,10 @@ EQU  ACIaddr      0000002e
 EQU  TWIaddr      00000030
 EQU  SPMRaddr     00000032
 EQU  INT_VECTORS_SIZE 00000034
-SET  num          00000002
-CSEG mul0         00000027
-CSEG done         00000023
+SET  num          0000ffff
+CSEG mul0         0000001b
+CSEG done         00000018
 CSEG chkR25       0000000b
 CSEG initialize   0000000d
-CSEG lp1          00000010
-CSEG addCarry     00000018
-CSEG addCarry2    0000001e
-CSEG terminate    00000029
+CSEG lp1          00000011
+CSEG terminate    0000001d

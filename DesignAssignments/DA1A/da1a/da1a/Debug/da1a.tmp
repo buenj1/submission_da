@@ -22,13 +22,11 @@
   <FILE>da1a.lss</FILE>
  </OUTPUT_FILES>
  <LABELS>
-  <mul0><FILE>C:\Users\John Patrick\Documents\Atmel Studio\7.0\da1a\da1a\main.asm</FILE><LINE>61</LINE></mul0>
-  <done><FILE>C:\Users\John Patrick\Documents\Atmel Studio\7.0\da1a\da1a\main.asm</FILE><LINE>56</LINE></done>
+  <mul0><FILE>C:\Users\John Patrick\Documents\Atmel Studio\7.0\da1a\da1a\main.asm</FILE><LINE>47</LINE></mul0>
+  <done><FILE>C:\Users\John Patrick\Documents\Atmel Studio\7.0\da1a\da1a\main.asm</FILE><LINE>43</LINE></done>
   <chkR25><FILE>C:\Users\John Patrick\Documents\Atmel Studio\7.0\da1a\da1a\main.asm</FILE><LINE>24</LINE></chkR25>
   <initialize><FILE>C:\Users\John Patrick\Documents\Atmel Studio\7.0\da1a\da1a\main.asm</FILE><LINE>29</LINE></initialize>
-  <lp1><FILE>C:\Users\John Patrick\Documents\Atmel Studio\7.0\da1a\da1a\main.asm</FILE><LINE>34</LINE></lp1>
-  <addCarry><FILE>C:\Users\John Patrick\Documents\Atmel Studio\7.0\da1a\da1a\main.asm</FILE><LINE>43</LINE></addCarry>
-  <addCarry2><FILE>C:\Users\John Patrick\Documents\Atmel Studio\7.0\da1a\da1a\main.asm</FILE><LINE>50</LINE></addCarry2>
-  <terminate><FILE>C:\Users\John Patrick\Documents\Atmel Studio\7.0\da1a\da1a\main.asm</FILE><LINE>67</LINE></terminate>
+  <lp1><FILE>C:\Users\John Patrick\Documents\Atmel Studio\7.0\da1a\da1a\main.asm</FILE><LINE>35</LINE></lp1>
+  <terminate><FILE>C:\Users\John Patrick\Documents\Atmel Studio\7.0\da1a\da1a\main.asm</FILE><LINE>53</LINE></terminate>
  </LABELS>
 </ASSEMBLER_INFO>

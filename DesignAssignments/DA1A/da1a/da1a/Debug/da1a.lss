@@ -1,5 +1,5 @@
 
-AVRASM ver. 2.2.7  C:\Users\John Patrick\Documents\Atmel Studio\7.0\da1a\da1a\main.asm Sun Feb 10 16:07:49 2019
+AVRASM ver. 2.2.7  C:\Users\John Patrick\Documents\Atmel Studio\7.0\da1a\da1a\main.asm Sat Feb 16 16:49:00 2019
 
 [builtin](2): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m328pdef.inc'
 C:\Users\John Patrick\Documents\Atmel Studio\7.0\da1a\da1a\main.asm(7): Including file 'C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m328pdef.inc'
@@ -988,9 +988,9 @@ C:\Users\John Patrick\Documents\Atmel Studio\7.0\da1a\da1a\main.asm(7): Includin
                                  ; ***** END OF FILE ******************************************************
                                  
                                  ;NSHE: 2000900752
-                                 ;Email: buenj1@unlv.nevada.edu
-                                 ;Github Address: 
-                                 ;Directory:  
+                                 ;RebelMail: buenj1@unlv.nevada.edu
+                                 ;CPE 301: Design Assignment 1A 
+                                 
                                  
                                  .include <m328pdef.inc>
                                  
@@ -1036,67 +1036,54 @@ C:\Users\John Patrick\Documents\Atmel Studio\7.0\da1a\da1a\main.asm(7): Includin
                                  #endif  /* _M328PDEF_INC_ */
                                  
                                  ; ***** END OF FILE ******************************************************
-                                 .SET num = 0x0002			;16-bit multiplicand stored in R25:R24
+                                 .SET num = 0xffff			;16-bit multiplicand
                                  		
                                  .ORG 00
-000000 e061                      	ldi R22, 1				;8-bit multiplier / counter
-000001 e082                      	ldi R24, LOW(num)		;16-bit... 
-000002 e090                      	ldi R25, HIGH(num)		;Multiplicand  
+000000 ef6f                      	ldi R22, 0xff				;8-bit multiplier / counter
+000001 ef8f                      	ldi R24, LOW(num)		;low byte of 16-bit multiplicand  
+000002 ef9f                      	ldi R25, HIGH(num)		;high byte of 16-bit multiplicand 
                                  
 000003 3060                      	cpi R22, 0				;check if multiplier is 0
-000004 f111                      	breq mul0				;branch to mul0 if equal
+000004 f0b1                      	breq mul0				;branch to mul0 if R22 is 0
 000005 3061                      	cpi R22, 1				;check if multiplier is 1
-000006 f0e1                      	breq done 				;branch to done if equal 
+000006 f089                      	breq done 				;branch to done if equal 
                                  
-000007 3080                      	cpi R24, 0				;check if low-byte multiplicand is 0
+000007 3080                      	cpi R24, 0				;check if low-byte of multiplicand is 0
 000008 f011                      	breq chkR25				;jump to chkR25 to check high-byte
-000009 940c 000d                 	jmp initialize			;unconditional jump to initialize 
+000009 940c 000d                 	jmp initialize			;jump to initialize 
                                  
                                  chkR25: 
 00000b 3090                      	cpi R25, 0				;check if high-byte multiplicand is 0
-00000c f0d1                      	breq mul0				;if equal, branch to mul0
+00000c f071                      	breq mul0				;if equal, branch to mul0
                                  	
                                  
                                  initialize: 
-00000d 956a                      	dec R22					;not counting/multiplying with 1
+00000d 956a                      	dec R22					;decrement R22, not counting/multiplying with 1
 00000e 2f08                      	mov R16, R24			;fixed adder for low byte  
 00000f 2f19                      	mov R17, R25			;fixed adder for high byte 
-                                 	
+000010 e070                      	ldi R23, 0				;fixed 0 to add with R20 in case of a carry bit when adding R25 
+                                 
                                  lp1: 
-000010 0f80                      	add R24, R16 
-000011 f030                      	brcs addCarry 
-000012 0f91                      	add R25, R17
-000013 f050                      	brcs addCarry2
-000014 956a                      	dec R22 
-000015 f069                      	breq done
-000016 940c 0010                 	jmp lp1
+000011 1f80                      	adc R24, R16			;add with carry for low byte of multiplicand 
+000012 1f91                      	adc R25, R17			;add with carry for high byte of multiplicand 
+000013 1f47                      	adc R20, R23			;add with carry for R20 in case there is a carry bit when adding the high byte (R25)
+000014 956a                      	dec R22					;decrement the multiplier 
+000015 f011                      	breq done				;if R22 is 0, branch to done 
+000016 940c 0011                 	jmp lp1					;else loop back to lp1
                                  
-                                 addCarry: 
-000018 1f91                      	adc R25, R17
-000019 f020                      	brcs addCarry2
-00001a 956a                      	dec R22
-00001b f039                      	breq done 
-00001c 940c 0010                 	jmp lp1
-                                 
-                                 addCarry2: 
-00001e 1d7f                      	adc R23, R15 
-00001f 956a                      	dec R22
-000020 f011                      	breq done 
-000021 940c 0010                 	jmp lp1
-                                 	
                                  done: 	
-000023 019c                      	movw R19:R18, R25:R24
-000024 2f47                      	mov R20, R23
-000025 940c 0029                 	jmp terminate 
+000018 019c                      	movw R19:R18, R25:R24	;store 16-bit multiplicand to R19:R18
+000019 940c 001d                 	jmp terminate			;jump to terminate to end the program
                                  	 
                                  mul0:
-000027 e020                      	ldi R18, 0
-000028 e030                      	ldi R19, 0
+00001b e020                      	ldi R18, 0				;store 0 in R18 if multiplier or low byte is 0
+00001c e030                      	ldi R19, 0				;store 0 in R19 if multiplier or high byte is 0
                                  
                                  	
                                  	 
                                  terminate: 
-                                 	;program is finished 
+                                 
+00001d 940c 001d                 	jmp terminate			;infinite loop to terminate to stop executing the program
 
 
 RESOURCE USE INFORMATION
@@ -1116,24 +1103,24 @@ counted separately from r26..r31 here.
 "ATmega328P" register use summary:
 x  :   0 y  :   0 z  :   0 r0 :   0 r1 :   0 r2 :   0 r3 :   0 r4 :   0 
 r5 :   0 r6 :   0 r7 :   0 r8 :   0 r9 :   0 r10:   0 r11:   0 r12:   0 
-r13:   0 r14:   0 r15:   1 r16:   2 r17:   3 r18:   2 r19:   2 r20:   1 
-r21:   0 r22:   7 r23:   2 r24:   5 r25:   6 r26:   0 r27:   0 r28:   0 
+r13:   0 r14:   0 r15:   0 r16:   2 r17:   2 r18:   2 r19:   2 r20:   1 
+r21:   0 r22:   5 r23:   2 r24:   5 r25:   5 r26:   0 r27:   0 r28:   0 
 r29:   0 r30:   0 r31:   0 
-Registers used: 10 out of 35 (28.6%)
+Registers used: 9 out of 35 (25.7%)
 
 "ATmega328P" instruction use summary:
-.lds  :   0 .sts  :   0 adc   :   2 add   :   2 adiw  :   0 and   :   0 
+.lds  :   0 .sts  :   0 adc   :   3 add   :   0 adiw  :   0 and   :   0 
 andi  :   0 asr   :   0 bclr  :   0 bld   :   0 brbc  :   0 brbs  :   0 
-brcc  :   0 brcs  :   3 break :   0 breq  :   7 brge  :   0 brhc  :   0 
+brcc  :   0 brcs  :   0 break :   0 breq  :   5 brge  :   0 brhc  :   0 
 brhs  :   0 brid  :   0 brie  :   0 brlo  :   0 brlt  :   0 brmi  :   0 
 brne  :   0 brpl  :   0 brsh  :   0 brtc  :   0 brts  :   0 brvc  :   0 
 brvs  :   0 bset  :   0 bst   :   0 call  :   0 cbi   :   0 cbr   :   0 
 clc   :   0 clh   :   0 cli   :   0 cln   :   0 clr   :   0 cls   :   0 
 clt   :   0 clv   :   0 clz   :   0 com   :   0 cp    :   0 cpc   :   0 
-cpi   :   4 cpse  :   0 dec   :   4 eor   :   0 fmul  :   0 fmuls :   0 
-fmulsu:   0 icall :   0 ijmp  :   0 in    :   0 inc   :   0 jmp   :   5 
-ld    :   0 ldd   :   0 ldi   :   5 lds   :   0 lpm   :   0 lsl   :   0 
-lsr   :   0 mov   :   3 movw  :   1 mul   :   0 muls  :   0 mulsu :   0 
+cpi   :   4 cpse  :   0 dec   :   2 eor   :   0 fmul  :   0 fmuls :   0 
+fmulsu:   0 icall :   0 ijmp  :   0 in    :   0 inc   :   0 jmp   :   4 
+ld    :   0 ldd   :   0 ldi   :   6 lds   :   0 lpm   :   0 lsl   :   0 
+lsr   :   0 mov   :   2 movw  :   1 mul   :   0 muls  :   0 mulsu :   0 
 neg   :   0 nop   :   0 or    :   0 ori   :   0 out   :   0 pop   :   0 
 push  :   0 rcall :   0 ret   :   0 reti  :   0 rjmp  :   0 rol   :   0 
 ror   :   0 sbc   :   0 sbci  :   0 sbi   :   0 sbic  :   0 sbis  :   0 
@@ -1141,12 +1128,12 @@ sbiw  :   0 sbr   :   0 sbrc  :   0 sbrs  :   0 sec   :   0 seh   :   0
 sei   :   0 sen   :   0 ser   :   0 ses   :   0 set   :   0 sev   :   0 
 sez   :   0 sleep :   0 spm   :   0 st    :   0 std   :   0 sts   :   0 
 sub   :   0 subi  :   0 swap  :   0 tst   :   0 wdr   :   0 
-Instructions used: 10 out of 113 (8.8%)
+Instructions used: 8 out of 113 (7.1%)
 
 "ATmega328P" memory use summary [bytes]:
 Segment   Begin    End      Code   Data   Used    Size   Use%
 ---------------------------------------------------------------
-[.cseg] 0x000000 0x000052     82      0     82   32768   0.3%
+[.cseg] 0x000000 0x00003e     62      0     62   32768   0.2%
 [.dseg] 0x000100 0x000100      0      0      0    2048   0.0%
 [.eseg] 0x000000 0x000000      0      0      0    1024   0.0%
 
