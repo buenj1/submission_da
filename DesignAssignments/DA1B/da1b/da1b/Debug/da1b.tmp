@@ -1,0 +1,31 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\John Patrick\Documents\Atmel Studio\7.0\da1b\da1b\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\John Patrick\Documents\Atmel Studio\7.0\da1b\da1b\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.209\avrasm\inc\m328pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\John Patrick\Documents\Atmel Studio\7.0\da1b\da1b\Debug\da1b.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>da1b.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>da1b.map</FILE>
+  <FILE>da1b.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <populateMEM><FILE>C:\Users\John Patrick\Documents\Atmel Studio\7.0\da1b\da1b\main.asm</FILE><LINE>25</LINE></populateMEM>
+  <chkDivBy3><FILE>C:\Users\John Patrick\Documents\Atmel Studio\7.0\da1b\da1b\main.asm</FILE><LINE>33</LINE></chkDivBy3>
+  <divBy3><FILE>C:\Users\John Patrick\Documents\Atmel Studio\7.0\da1b\da1b\main.asm</FILE><LINE>48</LINE></divBy3>
+  <done><FILE>C:\Users\John Patrick\Documents\Atmel Studio\7.0\da1b\da1b\main.asm</FILE><LINE>70</LINE></done>
+  <notDivBy3><FILE>C:\Users\John Patrick\Documents\Atmel Studio\7.0\da1b\da1b\main.asm</FILE><LINE>63</LINE></notDivBy3>
+ </LABELS>
+</ASSEMBLER_INFO>
