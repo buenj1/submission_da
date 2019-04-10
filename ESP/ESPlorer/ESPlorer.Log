@@ -1,0 +1,1544 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-04-08T16:00:11</date>
+  <millis>1554764411298</millis>
+  <sequence>6</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Load saved settings: Firmware:NodeMCU</message>
+</record>
+<record>
+  <date>2019-04-08T16:00:11</date>
+  <millis>1554764411360</millis>
+  <sequence>7</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Snippets: loading...</message>
+</record>
+<record>
+  <date>2019-04-08T16:00:11</date>
+  <millis>1554764411376</millis>
+  <sequence>8</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Snippets load: Success.</message>
+</record>
+<record>
+  <date>2019-04-08T16:00:11</date>
+  <millis>1554764411548</millis>
+  <sequence>9</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Set new color theme: Success.</message>
+</record>
+<record>
+  <date>2019-04-08T16:00:11</date>
+  <millis>1554764411579</millis>
+  <sequence>10</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Load saved settings: DONE.</message>
+</record>
+<record>
+  <date>2019-04-08T16:00:11</date>
+  <millis>1554764411579</millis>
+  <sequence>11</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Snippets: loading...</message>
+</record>
+<record>
+  <date>2019-04-08T16:00:11</date>
+  <millis>1554764411594</millis>
+  <sequence>12</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Snippets load: Success.</message>
+</record>
+<record>
+  <date>2019-04-08T16:00:12</date>
+  <millis>1554764412156</millis>
+  <sequence>13</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Scan system...</message>
+</record>
+<record>
+  <date>2019-04-08T16:00:12</date>
+  <millis>1554764412156</millis>
+  <sequence>14</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>found COM8</message>
+</record>
+<record>
+  <date>2019-04-08T16:00:12</date>
+  <millis>1554764412172</millis>
+  <sequence>15</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Scan done.</message>
+</record>
+<record>
+  <date>2019-04-08T16:00:17</date>
+  <millis>1554764417891</millis>
+  <sequence>16</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Serial port COM8 save as default.</message>
+</record>
+<record>
+  <date>2019-04-08T16:00:17</date>
+  <millis>1554764417891</millis>
+  <sequence>17</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Baud rate 115200 save as default.</message>
+</record>
+<record>
+  <date>2019-04-08T16:00:17</date>
+  <millis>1554764417891</millis>
+  <sequence>18</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Try to open port COM8, baud 115200, 8N1</message>
+</record>
+<record>
+  <date>2019-04-08T16:00:17</date>
+  <millis>1554764417907</millis>
+  <sequence>19</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Open port COM8 - Success.</message>
+</record>
+<record>
+  <date>2019-04-08T16:00:46</date>
+  <millis>1554764446408</millis>
+  <sequence>20</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Uploader: Communication with MCU not yet established.</message>
+</record>
+<record>
+  <date>2019-04-08T16:00:50</date>
+  <millis>1554764450878</millis>
+  <sequence>21</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Close port COM8 - Success.</message>
+</record>
+<record>
+  <date>2019-04-08T16:00:53</date>
+  <millis>1554764453578</millis>
+  <sequence>22</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>ERROR: Communication with MCU not yet established.</message>
+</record>
+<record>
+  <date>2019-04-08T16:00:53</date>
+  <millis>1554764453938</millis>
+  <sequence>23</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>ERROR: Communication with MCU not yet established.</message>
+</record>
+<record>
+  <date>2019-04-08T16:00:54</date>
+  <millis>1554764454094</millis>
+  <sequence>24</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>ERROR: Communication with MCU not yet established.</message>
+</record>
+<record>
+  <date>2019-04-08T16:00:54</date>
+  <millis>1554764454250</millis>
+  <sequence>25</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>ERROR: Communication with MCU not yet established.</message>
+</record>
+<record>
+  <date>2019-04-08T16:00:54</date>
+  <millis>1554764454406</millis>
+  <sequence>26</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>ERROR: Communication with MCU not yet established.</message>
+</record>
+<record>
+  <date>2019-04-08T16:00:54</date>
+  <millis>1554764454547</millis>
+  <sequence>27</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>ERROR: Communication with MCU not yet established.</message>
+</record>
+<record>
+  <date>2019-04-08T16:00:56</date>
+  <millis>1554764456567</millis>
+  <sequence>28</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Scan system...</message>
+</record>
+<record>
+  <date>2019-04-08T16:00:56</date>
+  <millis>1554764456567</millis>
+  <sequence>29</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>found last saved serial port COM8</message>
+</record>
+<record>
+  <date>2019-04-08T16:00:56</date>
+  <millis>1554764456567</millis>
+  <sequence>30</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>ERROR: Communication with MCU not established.</message>
+</record>
+<record>
+  <date>2019-04-08T16:00:56</date>
+  <millis>1554764456567</millis>
+  <sequence>31</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Scan done.</message>
+</record>
+<record>
+  <date>2019-04-08T16:00:56</date>
+  <millis>1554764456724</millis>
+  <sequence>32</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Scan system...</message>
+</record>
+<record>
+  <date>2019-04-08T16:00:56</date>
+  <millis>1554764456724</millis>
+  <sequence>33</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>found last saved serial port COM8</message>
+</record>
+<record>
+  <date>2019-04-08T16:00:56</date>
+  <millis>1554764456724</millis>
+  <sequence>34</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>ERROR: Communication with MCU not established.</message>
+</record>
+<record>
+  <date>2019-04-08T16:00:56</date>
+  <millis>1554764456724</millis>
+  <sequence>35</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Scan done.</message>
+</record>
+<record>
+  <date>2019-04-08T16:00:56</date>
+  <millis>1554764456886</millis>
+  <sequence>36</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Scan system...</message>
+</record>
+<record>
+  <date>2019-04-08T16:00:56</date>
+  <millis>1554764456886</millis>
+  <sequence>37</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>found last saved serial port COM8</message>
+</record>
+<record>
+  <date>2019-04-08T16:00:56</date>
+  <millis>1554764456886</millis>
+  <sequence>38</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>ERROR: Communication with MCU not established.</message>
+</record>
+<record>
+  <date>2019-04-08T16:00:56</date>
+  <millis>1554764456886</millis>
+  <sequence>39</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Scan done.</message>
+</record>
+<record>
+  <date>2019-04-08T16:00:57</date>
+  <millis>1554764457042</millis>
+  <sequence>40</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Scan system...</message>
+</record>
+<record>
+  <date>2019-04-08T16:00:57</date>
+  <millis>1554764457042</millis>
+  <sequence>41</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>found last saved serial port COM8</message>
+</record>
+<record>
+  <date>2019-04-08T16:00:57</date>
+  <millis>1554764457042</millis>
+  <sequence>42</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>ERROR: Communication with MCU not established.</message>
+</record>
+<record>
+  <date>2019-04-08T16:00:57</date>
+  <millis>1554764457042</millis>
+  <sequence>43</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Scan done.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:03</date>
+  <millis>1554764463617</millis>
+  <sequence>44</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>ERROR: Communication with MCU not established.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:04</date>
+  <millis>1554764464883</millis>
+  <sequence>45</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Scan system...</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:04</date>
+  <millis>1554764464883</millis>
+  <sequence>46</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>found last saved serial port COM8</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:04</date>
+  <millis>1554764464883</millis>
+  <sequence>47</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>ERROR: Communication with MCU not established.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:04</date>
+  <millis>1554764464883</millis>
+  <sequence>48</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Scan done.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:05</date>
+  <millis>1554764465055</millis>
+  <sequence>49</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Scan system...</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:05</date>
+  <millis>1554764465055</millis>
+  <sequence>50</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>found last saved serial port COM8</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:05</date>
+  <millis>1554764465055</millis>
+  <sequence>51</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>ERROR: Communication with MCU not established.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:05</date>
+  <millis>1554764465055</millis>
+  <sequence>52</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Scan done.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:05</date>
+  <millis>1554764465211</millis>
+  <sequence>53</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Scan system...</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:05</date>
+  <millis>1554764465211</millis>
+  <sequence>54</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>found last saved serial port COM8</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:05</date>
+  <millis>1554764465211</millis>
+  <sequence>55</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>ERROR: Communication with MCU not established.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:05</date>
+  <millis>1554764465211</millis>
+  <sequence>56</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Scan done.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:05</date>
+  <millis>1554764465383</millis>
+  <sequence>57</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Scan system...</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:05</date>
+  <millis>1554764465383</millis>
+  <sequence>58</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>found last saved serial port COM8</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:05</date>
+  <millis>1554764465383</millis>
+  <sequence>59</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>ERROR: Communication with MCU not established.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:05</date>
+  <millis>1554764465383</millis>
+  <sequence>60</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Scan done.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:06</date>
+  <millis>1554764466844</millis>
+  <sequence>61</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>ERROR: Communication with MCU not established.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:08</date>
+  <millis>1554764468064</millis>
+  <sequence>62</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>ERROR: Communication with MCU not yet established.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:08</date>
+  <millis>1554764468236</millis>
+  <sequence>63</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>ERROR: Communication with MCU not yet established.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:08</date>
+  <millis>1554764468392</millis>
+  <sequence>64</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>ERROR: Communication with MCU not yet established.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:08</date>
+  <millis>1554764468564</millis>
+  <sequence>65</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>ERROR: Communication with MCU not yet established.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:08</date>
+  <millis>1554764468705</millis>
+  <sequence>66</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>ERROR: Communication with MCU not yet established.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:08</date>
+  <millis>1554764468861</millis>
+  <sequence>67</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>ERROR: Communication with MCU not yet established.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:09</date>
+  <millis>1554764469048</millis>
+  <sequence>68</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>ERROR: Communication with MCU not yet established.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:10</date>
+  <millis>1554764470783</millis>
+  <sequence>69</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Scan system...</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:10</date>
+  <millis>1554764470783</millis>
+  <sequence>70</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>found last saved serial port COM8</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:10</date>
+  <millis>1554764470783</millis>
+  <sequence>71</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>ERROR: Communication with MCU not established.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:10</date>
+  <millis>1554764470783</millis>
+  <sequence>72</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Scan done.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:11</date>
+  <millis>1554764471111</millis>
+  <sequence>73</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Scan system...</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:11</date>
+  <millis>1554764471111</millis>
+  <sequence>74</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>found last saved serial port COM8</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:11</date>
+  <millis>1554764471111</millis>
+  <sequence>75</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>ERROR: Communication with MCU not established.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:11</date>
+  <millis>1554764471111</millis>
+  <sequence>76</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Scan done.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:12</date>
+  <millis>1554764472272</millis>
+  <sequence>77</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>ERROR: Communication with MCU not established.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:13</date>
+  <millis>1554764473303</millis>
+  <sequence>78</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Serial port COM8 save as default.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:13</date>
+  <millis>1554764473303</millis>
+  <sequence>79</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Baud rate 74880 save as default.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:13</date>
+  <millis>1554764473303</millis>
+  <sequence>80</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Try to open port COM8, baud 74880, 8N1</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:13</date>
+  <millis>1554764473318</millis>
+  <sequence>81</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Open port COM8 - Success.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:25</date>
+  <millis>1554764485125</millis>
+  <sequence>82</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>RTS set to OFF</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:25</date>
+  <millis>1554764485739</millis>
+  <sequence>83</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>DTR set to OFF</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:26</date>
+  <millis>1554764486911</millis>
+  <sequence>84</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Close port COM8 - Success.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:27</date>
+  <millis>1554764487567</millis>
+  <sequence>85</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Serial port COM8 save as default.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:27</date>
+  <millis>1554764487567</millis>
+  <sequence>86</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Baud rate 74880 save as default.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:27</date>
+  <millis>1554764487567</millis>
+  <sequence>87</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Try to open port COM8, baud 74880, 8N1</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:27</date>
+  <millis>1554764487583</millis>
+  <sequence>88</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Open port COM8 - Success.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:31</date>
+  <millis>1554764491018</millis>
+  <sequence>89</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Close port COM8 - Success.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:31</date>
+  <millis>1554764491893</millis>
+  <sequence>90</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Scan system...</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:31</date>
+  <millis>1554764491893</millis>
+  <sequence>91</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>found last saved serial port COM8</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:31</date>
+  <millis>1554764491893</millis>
+  <sequence>92</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>ERROR: Communication with MCU not established.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:31</date>
+  <millis>1554764491893</millis>
+  <sequence>93</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Scan done.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:32</date>
+  <millis>1554764492159</millis>
+  <sequence>94</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Scan system...</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:32</date>
+  <millis>1554764492159</millis>
+  <sequence>95</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>found last saved serial port COM8</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:32</date>
+  <millis>1554764492159</millis>
+  <sequence>96</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>ERROR: Communication with MCU not established.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:32</date>
+  <millis>1554764492159</millis>
+  <sequence>97</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Scan done.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:32</date>
+  <millis>1554764492315</millis>
+  <sequence>98</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Scan system...</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:32</date>
+  <millis>1554764492315</millis>
+  <sequence>99</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>found last saved serial port COM8</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:32</date>
+  <millis>1554764492315</millis>
+  <sequence>100</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>ERROR: Communication with MCU not established.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:32</date>
+  <millis>1554764492330</millis>
+  <sequence>101</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Scan done.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:32</date>
+  <millis>1554764492565</millis>
+  <sequence>102</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Scan system...</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:32</date>
+  <millis>1554764492565</millis>
+  <sequence>103</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>found last saved serial port COM8</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:32</date>
+  <millis>1554764492565</millis>
+  <sequence>104</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>ERROR: Communication with MCU not established.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:32</date>
+  <millis>1554764492565</millis>
+  <sequence>105</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Scan done.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:32</date>
+  <millis>1554764492737</millis>
+  <sequence>106</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Scan system...</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:32</date>
+  <millis>1554764492737</millis>
+  <sequence>107</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>found last saved serial port COM8</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:32</date>
+  <millis>1554764492737</millis>
+  <sequence>108</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>ERROR: Communication with MCU not established.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:32</date>
+  <millis>1554764492737</millis>
+  <sequence>109</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Scan done.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:33</date>
+  <millis>1554764493924</millis>
+  <sequence>110</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>ERROR: Communication with MCU not established.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:34</date>
+  <millis>1554764494764</millis>
+  <sequence>111</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Scan system...</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:34</date>
+  <millis>1554764494764</millis>
+  <sequence>112</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>found last saved serial port COM8</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:34</date>
+  <millis>1554764494764</millis>
+  <sequence>113</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>ERROR: Communication with MCU not established.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:34</date>
+  <millis>1554764494764</millis>
+  <sequence>114</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Scan done.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:34</date>
+  <millis>1554764494917</millis>
+  <sequence>115</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Scan system...</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:34</date>
+  <millis>1554764494917</millis>
+  <sequence>116</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>found last saved serial port COM8</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:34</date>
+  <millis>1554764494917</millis>
+  <sequence>117</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>ERROR: Communication with MCU not established.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:34</date>
+  <millis>1554764494917</millis>
+  <sequence>118</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Scan done.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:35</date>
+  <millis>1554764495104</millis>
+  <sequence>119</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Scan system...</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:35</date>
+  <millis>1554764495104</millis>
+  <sequence>120</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>found last saved serial port COM8</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:35</date>
+  <millis>1554764495104</millis>
+  <sequence>121</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>ERROR: Communication with MCU not established.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:35</date>
+  <millis>1554764495104</millis>
+  <sequence>122</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Scan done.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:36</date>
+  <millis>1554764496361</millis>
+  <sequence>123</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>ERROR: Communication with MCU not established.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:37</date>
+  <millis>1554764497555</millis>
+  <sequence>124</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>ERROR: Communication with MCU not yet established.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:37</date>
+  <millis>1554764497727</millis>
+  <sequence>125</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>ERROR: Communication with MCU not yet established.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:38</date>
+  <millis>1554764498039</millis>
+  <sequence>126</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>ERROR: Communication with MCU not yet established.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:39</date>
+  <millis>1554764499497</millis>
+  <sequence>127</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Serial port COM8 save as default.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:39</date>
+  <millis>1554764499497</millis>
+  <sequence>128</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Baud rate 115200 save as default.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:39</date>
+  <millis>1554764499497</millis>
+  <sequence>129</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Try to open port COM8, baud 115200, 8N1</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:39</date>
+  <millis>1554764499497</millis>
+  <sequence>130</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Open port COM8 - Success.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:40</date>
+  <millis>1554764500752</millis>
+  <sequence>131</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>RTS set to ON</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:41</date>
+  <millis>1554764501190</millis>
+  <sequence>132</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>DTR set to ON</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:41</date>
+  <millis>1554764501921</millis>
+  <sequence>133</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Close port COM8 - Success.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:42</date>
+  <millis>1554764502233</millis>
+  <sequence>134</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Serial port COM8 save as default.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:42</date>
+  <millis>1554764502233</millis>
+  <sequence>135</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Baud rate 115200 save as default.</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:42</date>
+  <millis>1554764502233</millis>
+  <sequence>136</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Try to open port COM8, baud 115200, 8N1</message>
+</record>
+<record>
+  <date>2019-04-08T16:01:42</date>
+  <millis>1554764502233</millis>
+  <sequence>137</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Open port COM8 - Success.</message>
+</record>
+<record>
+  <date>2019-04-08T16:08:02</date>
+  <millis>1554764882380</millis>
+  <sequence>138</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Close port COM8 - Success.</message>
+</record>
+<record>
+  <date>2019-04-08T16:08:04</date>
+  <millis>1554764884302</millis>
+  <sequence>139</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Serial port COM8 save as default.</message>
+</record>
+<record>
+  <date>2019-04-08T16:08:04</date>
+  <millis>1554764884302</millis>
+  <sequence>140</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Baud rate 115200 save as default.</message>
+</record>
+<record>
+  <date>2019-04-08T16:08:04</date>
+  <millis>1554764884302</millis>
+  <sequence>141</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Try to open port COM8, baud 115200, 8N1</message>
+</record>
+<record>
+  <date>2019-04-08T16:08:04</date>
+  <millis>1554764884302</millis>
+  <sequence>142</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Open port COM8 - Success.</message>
+</record>
+<record>
+  <date>2019-04-08T16:08:14</date>
+  <millis>1554764894015</millis>
+  <sequence>143</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>Close port COM8 - Success.</message>
+</record>
+<record>
+  <date>2019-04-08T16:08:14</date>
+  <millis>1554764894736</millis>
+  <sequence>144</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>FileTab cleared: Success.</message>
+</record>
+<record>
+  <date>2019-04-08T16:08:14</date>
+  <millis>1554764894740</millis>
+  <sequence>145</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>15</thread>
+  <message>File close: Success.</message>
+</record>
+</log>
